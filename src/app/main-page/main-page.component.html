@@ -1,0 +1,17 @@
+<div class="container py-5">
+  <div class="row">
+    <div class="col-12 head-control">
+      <p *ngIf="isChecked">Check Mate, Game over</p>
+      <div>
+        <button type="button" class="btn btn-primary" (click)="startNewGame()">End the Game</button>
+      </div>
+    </div>
+    <div class="col-md-6 iframe">
+      <iframe src="/iframepage" id="iframe1" #iFrame1></iframe>
+    </div>
+    <div class="col-md-6 iframe">
+      <iframe src="/iframepage" id="iframe2" #iFrame2></iframe>
+    </div>
+  </div>
+
+</div>

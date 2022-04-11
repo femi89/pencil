@@ -1,0 +1,22 @@
+.container{
+  min-height: 516px;
+  background-color: #efefef;
+  .head-control{
+    display: block;
+    padding: 12px 5px;
+    text-align: center;
+  }
+  .iframe {
+    background-color: #fce5cd;
+    padding: 23px;
+    &:nth-child(2n) {
+      background-color: #d9d2e9;
+    }
+    iframe {
+      height: 516px;
+      width: 100%;
+      text-align: center;
+      border: none;
+    }
+  }
+}
